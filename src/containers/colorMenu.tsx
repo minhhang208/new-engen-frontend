@@ -4,12 +4,9 @@ import { baseColors, getRandomColor } from '../utils';
 import useColorList from "../hooks/useColorList";
 import "./colorMenu.css";
 
-
 export default function ColorMenu() {
-    const [activeItem, setActiveItem] = useState<string>('all');
-    
-    const [colors] = useColorList(activeItem);
-    
+    const [activeItem, setActiveItem] = useState<string>('all');    
+    useColorList(activeItem);    
     const handleSelectMenu = (color: string) => {
         setActiveItem(color);
         if(location.hash !== "#/") {

@@ -1,11 +1,11 @@
 p.capitalize {
     text-transform: capitalize;
-  }
+}
+
 div.menu {
     position: relative;
     width: 30%;
-    }
-    
+}
 
 .random-button {
     width: 80%;
@@ -13,6 +13,7 @@ div.menu {
     margin: auto;
     display: block;
 }
+
 .ui.menu {
     border-top: none;
     border-radius: 0%;

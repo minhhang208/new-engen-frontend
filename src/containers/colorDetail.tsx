@@ -30,14 +30,10 @@ export default function ColorDetail(props :Props) {
         </Table.Cell>
         </Table.Row>
         <Table.Row>
-            
-        
         {opacities.map(opacity => {
           return (
               <Table.Cell key={`${getRandomInt(1, 1024)}${color}${opacity}`}
               onClick={() => handClickColor(opacity)}>
-            
-              
                 <Segment className="color-block">
                   <Segment
                     className="color-segment"
@@ -45,7 +41,7 @@ export default function ColorDetail(props :Props) {
                 opacity: opacity }}
                   />
                   <Segment className="color-detail">#{color}</Segment>
-                </Segment>
+                </Segment>            
             </Table.Cell>
           );
         })}

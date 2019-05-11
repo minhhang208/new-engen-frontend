@@ -2,7 +2,7 @@ import { useStore } from 'react-hookstore';
 import { colorList, ColorElement } from '../utils';
 import { useState, useEffect } from 'react'; 
 
-export default function useColorList(filter: string): [Array<ColorElement>] {
+export default function useColorList(filter: string): void{
     const [showColors, setShowColors] = useState<Array<ColorElement>>(colorList);
     const [colorsList, setColorList] = useStore('colorList');
     const filterColor = () => {
@@ -16,5 +16,4 @@ export default function useColorList(filter: string): [Array<ColorElement>] {
         }
     };
     useEffect(filterColor ,[filter])
-    return [showColors];
 }

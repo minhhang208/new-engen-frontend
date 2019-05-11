@@ -12,7 +12,6 @@ export default function ListBody() {
     colors.slice(0, 10)
   );
   useEffect(() => {
-      console.log(colorList);
     setColors(colorList);
     if (page * 10 >= colorList.length) {
       setPage(0);
