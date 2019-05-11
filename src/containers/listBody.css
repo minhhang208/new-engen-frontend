@@ -1,0 +1,21 @@
+.ui.segment.color-segment{
+    width: 130px;    
+    height:  130px;
+    margin: 0;
+   }
+   .ui.segment.color-detail {
+       width: 130px;       
+       margin:0; 
+       border-radius: 0;
+   }
+   .color-block {
+    width: 13em;    
+    height: 13em; 
+    border: none !important;
+    box-shadow: none!important;
+    border-radius: none !important;
+    margin-bottom: 1em;
+   }
+   .ui.buttons.page-button-group {
+       margin: auto;
+   }

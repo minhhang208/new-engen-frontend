@@ -1,0 +1,41 @@
+.ui.grid>* {
+    padding-left: 0;
+    padding-right: 0;
+}
+.ui.celled.grid {
+    height: 100%;
+    margin: 0 auto;
+    border: none;
+    box-shadow: none;
+    position: relative
+    
+}
+.ui.segment:last-child {
+    margin-bottom: 1em;
+}
+table {
+    text-align: center;
+}
+td div{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 2em;
+}
+.cell-detail {
+    height: 350px;
+    margin: auto;
+  vertical-align: top;
+    
+}
+.ui.segment {
+    margin: auto;
+}
+.ui.segment.color-detail {
+    margin-bottom: 1em;
+}
+.color-segment-detail {
+    width: 300px;
+    height: 300px;
+}

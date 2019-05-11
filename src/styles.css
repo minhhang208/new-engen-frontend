@@ -1,0 +1,14 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.menu-column {
+  width:20% !important;
+}
+.content-column {
+  width:  75%!important;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
